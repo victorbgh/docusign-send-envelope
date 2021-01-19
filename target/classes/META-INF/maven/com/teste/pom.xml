@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com</groupId>
+	<artifactId>teste</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>teste</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<java.version>11</java.version>
+        <oauth2.version>2.1.1.RELEASE</oauth2.version>
+        <commonsio.version>2.6</commonsio.version>
+        <docusign.version>3.8.0</docusign.version>
+        <rooms.version>1.0.0</rooms.version>
+        <click.version>1.0.0-BETA</click.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.docusign/docusign-esign-java -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.docusign</groupId> -->
+<!-- 			<artifactId>docusign-esign-java</artifactId> -->
+<!-- 			<version>2.0.0</version> -->
+<!-- 		</dependency> -->
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.docusign</groupId> -->
+<!-- 			<artifactId>docusign-esign-java</artifactId> -->
+<!-- 			<version>${docusign.version}</version> -->
+<!-- 		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/com.docusign/docusign-esign-java -->
+		<dependency>
+		    <groupId>com.docusign</groupId>
+		    <artifactId>docusign-esign-java</artifactId>
+		    <version>3.11.0-RC1</version>
+		</dependency>
+		
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.docusign</groupId> -->
+<!-- 			<artifactId>docusign-rooms-java</artifactId> -->
+<!-- 			<version>${rooms.version}</version> -->
+<!-- 		</dependency> -->
+
+<!-- 		<dependency> -->
+<!-- 			<groupId>com.docusign</groupId> -->
+<!-- 			<artifactId>docusign-click-java</artifactId> -->
+<!-- 			<version>${click.version}</version> -->
+<!-- 		</dependency> -->
+		
+		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
+		<dependency>
+		    <groupId>io.swagger</groupId>
+		    <artifactId>swagger-annotations</artifactId>
+		    <version>2.0.0-rc2</version>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 		   <groupId>com.adobe.livecycle</groupId> -->
+<!-- 		   <artifactId>adobe-signatures-client</artifactId> -->
+<!-- 		   <version>11.0.0</version> -->
+<!-- 		</dependency> -->
+
+
+		
+		
+
+	</dependencies>
+</project>
